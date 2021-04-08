@@ -1,0 +1,5 @@
+"trial_type","trial_index","time_elapsed","internal_node_id","subject","success","rt","stimulus","button_pressed","key_press"
+"pavlovia","0","8","0.0-0.0","gbq529thu43mfcv","","","","",""
+"fullscreen","1","4381","0.0-1.0","gbq529thu43mfcv","true","","","",""
+"html-button-response","2","7276","0.0-2.0","gbq529thu43mfcv","","2887.000000000001","Let's start!","0",""
+"audio-keyboard-response","3","9156","0.0-3.0","gbq529thu43mfcv","","null","audio/apple.mp3","","null"

@@ -1,0 +1,5 @@
+"trial_type","trial_index","time_elapsed","internal_node_id","subject","success","rt","stimulus","button_pressed","key_press"
+"pavlovia","0","2","0.0-0.0","1yh3zyzvp449zpm","","","","",""
+"fullscreen","1","4975","0.0-1.0","1yh3zyzvp449zpm","true","","","",""
+"html-button-response","2","7035","0.0-2.0","1yh3zyzvp449zpm","","2057","Let's start!","0",""
+"audio-keyboard-response","3","8851","0.0-3.0","1yh3zyzvp449zpm","","null","audio/apple.mp3","","null"

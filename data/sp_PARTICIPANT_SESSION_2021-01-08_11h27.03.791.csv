@@ -1,0 +1,7 @@
+"trial_type","trial_index","time_elapsed","internal_node_id","subject","success","rt","stimulus","button_pressed","key_press"
+"pavlovia","0","4","0.0-0.0","02hs59691thbsso","","","","",""
+"fullscreen","1","3704","0.0-1.0","02hs59691thbsso","true","","","",""
+"html-button-response","2","4811","0.0-2.0","02hs59691thbsso","","1105.230000015581","Let's start!","0",""
+"audio-keyboard-response","3","6457","0.0-3.0","02hs59691thbsso","","null","audio/puppy.mp3","","null"
+"html-button-response","4","6884","0.0-4.0","02hs59691thbsso","","425.45999999856576","","0",""
+"audio-keyboard-response","5","8563","0.0-5.0","02hs59691thbsso","","null","audio/apple.mp3","","null"
