@@ -115,7 +115,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training1[y].video];
     var training_img = [sc_label_first_training1[y].image1, sc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -189,7 +189,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training2[y].video];
     var training_img = [sc_label_first_training2[y].image1, sc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -265,7 +265,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training2[y].video];
     var training_img = [sc_label_first_training2[y].image1, sc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -339,7 +339,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training1[y].video];
     var training_img = [sc_label_first_training1[y].image1, sc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -448,7 +448,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training1[y].video];
     var training_img = [nsc_label_first_training1[y].image1, nsc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -523,7 +523,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training2[y].video];
     var training_img = [nsc_label_first_training2[y].image1, nsc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -600,7 +600,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training2[y].video];
     var training_img = [nsc_label_first_training2[y].image1, nsc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -674,7 +674,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training1[y].video];
     var training_img = [nsc_label_first_training1[y].image1, nsc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -771,7 +771,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training1[y].video];
     var training_img = [sc_label_last_training1[y].image1, sc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -846,7 +846,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training2[y].video];
     var training_img = [sc_label_last_training2[y].image1, sc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -923,7 +923,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training2[y].video];
     var training_img = [sc_label_last_training2[y].image1, sc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -998,7 +998,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training1[y].video];
     var training_img = [sc_label_last_training1[y].image1, sc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -1096,7 +1096,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training1[y].video];
     var training_img = [nsc_label_last_training1[y].image1, nsc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -1171,7 +1171,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training2[y].video];
     var training_img = [nsc_label_last_training2[y].image1, nsc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -1248,7 +1248,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training2[y].video];
     var training_img = [nsc_label_last_training2[y].image1, nsc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -1320,7 +1320,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training1[y].video];
     var training_img = [nsc_label_last_training1[y].image1, nsc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
