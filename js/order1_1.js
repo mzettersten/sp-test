@@ -12,13 +12,13 @@ var sc_label_first_training2 = [
 ];
 
 var sc_label_first_test_images1 = [
-  {image1: '<img src="img/1.png" width="40%"/>', image2: '<img src="img/5.png" width="40%"/>', audio: "audio/norm_blicket.wav"},
-  {image1: '<img src="img/1.png" width="40%"/>', image2: '<img src="img/5.png" width="40%"/>', audio: "audio/norm_toma.wav"}
+  {image1: '<img src="img/1.png" width="40%"/>', image2: '<img src="img/5.png" width="40%"/>', audio: "audio/norm_blicket.m4a"},
+  {image1: '<img src="img/1.png" width="40%"/>', image2: '<img src="img/5.png" width="40%"/>', audio: "audio/norm_toma.m4a"}
 ];
 
 var sc_label_first_test_images2 = [
-  {image1: '<img src="img/9.png" width="40%"/>',  image2: '<img src="img/15.png" width="40%"/>', audio: "audio/norm_gazzer.wav" },
-  {image1: '<img src="img/9.png" width="40%"/>',  image2: '<img src="img/15.png" width="40%"/>', audio: "audio/norm_numo.wav" }
+  {image1: '<img src="img/9.png" width="40%"/>',  image2: '<img src="img/15.png" width="40%"/>', audio: "audio/norm_gazzer.m4a" },
+  {image1: '<img src="img/9.png" width="40%"/>',  image2: '<img src="img/15.png" width="40%"/>', audio: "audio/norm_numo.m4a" }
 ];
 
 //nsc-label-sc_label
@@ -33,13 +33,13 @@ var nsc_label_first_training2 = [
 ];
 
 var nsc_label_first_test_images1 = [
-  {image1: '<img src="img/2.png" width="40%"/>', image2: '<img src="img/6.png" width="40%"/>', audio: "audio/norm_fopin.wav" },
-  {image1: '<img src="img/2.png" width="40%"/>', image2: '<img src="img/6.png" width="40%"/>', audio: "audio/norm_nissle.wav" }
+  {image1: '<img src="img/2.png" width="40%"/>', image2: '<img src="img/6.png" width="40%"/>', audio: "audio/norm_fopin.m4a" },
+  {image1: '<img src="img/2.png" width="40%"/>', image2: '<img src="img/6.png" width="40%"/>', audio: "audio/norm_nissle.m4a" }
 ];
 
 var nsc_label_first_test_images2 = [
-  {image1: '<img src="img/13.png" width="40%"/>',  image2: '<img src="img/14.png" width="40%"/>', audio: "audio/norm_chamu.wav" },
-  {image1: '<img src="img/13.png" width="40%"/>',  image2: '<img src="img/14.png" width="40%"/>', audio: "audio/norm_dakup.wav" }
+  {image1: '<img src="img/13.png" width="40%"/>',  image2: '<img src="img/14.png" width="40%"/>', audio: "audio/norm_chamu.m4a" },
+  {image1: '<img src="img/13.png" width="40%"/>',  image2: '<img src="img/14.png" width="40%"/>', audio: "audio/norm_dakup.m4a" }
 ];
 
 //sc_label_last
@@ -54,13 +54,13 @@ var sc_label_last_training2 = [
 ];
 
 var sc_label_last_test_images1 = [
-  {image1: '<img src="img/3.png" width="40%"/>', image2: '<img src="img/7.png" width="40%"/>', audio: "audio/norm_tentle.wav" },
-  {image1: '<img src="img/3.png" width="40%"/>',  image2: '<img src="img/7.png" width="40%"/>', audio: "audio/norm_paegu.wav" }
+  {image1: '<img src="img/3.png" width="40%"/>', image2: '<img src="img/7.png" width="40%"/>', audio: "audio/norm_tentle.m4a" },
+  {image1: '<img src="img/3.png" width="40%"/>',  image2: '<img src="img/7.png" width="40%"/>', audio: "audio/norm_paegu.m4a" }
 ];
 
 var sc_label_last_test_images2 = [
-  {image1: '<img src="img/11.png" width="40%"/>', image2: '<img src="img/10.png" width="40%"/>', audio: "audio/norm_klefu.wav" },
-  {image1: '<img src="img/11.png" width="40%"/>',  image2: '<img src="img/10.png" width="40%"/>', audio: "audio/norm_jimo.wav" }
+  {image1: '<img src="img/11.png" width="40%"/>', image2: '<img src="img/10.png" width="40%"/>', audio: "audio/norm_klefu.m4a" },
+  {image1: '<img src="img/11.png" width="40%"/>',  image2: '<img src="img/10.png" width="40%"/>', audio: "audio/norm_jimo.m4a" }
 ];
 
 //nsc_label_last
@@ -75,18 +75,18 @@ var nsc_label_last_training2 = [
 ];
 
 var nsc_label_last_test_images1 = [
-  {image1: '<img src="img/4.png" width="40%"/>', image2: '<img src="img/8.png" width="40%"/>', audio: "audio/norm_reko.wav" },
-  {image1: '<img src="img/4.png" width="40%"/>',  image2: '<img src="img/8.png" width="40%"/>', audio: "audio/norm_vugim.wav" }
+  {image1: '<img src="img/4.png" width="40%"/>', image2: '<img src="img/8.png" width="40%"/>', audio: "audio/norm_reko.m4a" },
+  {image1: '<img src="img/4.png" width="40%"/>',  image2: '<img src="img/8.png" width="40%"/>', audio: "audio/norm_vugim.m4a" }
 ];
 
 var nsc_label_last_test_images2 = [
-  {image1: '<img src="img/12.png" width="40%"/>', image2: '<img src="img/16.png" width="40%"/>', audio: "audio/norm_miffle.wav" },
-  {image1: '<img src="img/12.png" width="40%"/>',  image2: '<img src="img/16.png" width="40%"/>', audio: "audio/norm_zibo.wav" }
+  {image1: '<img src="img/12.png" width="40%"/>', image2: '<img src="img/16.png" width="40%"/>', audio: "audio/norm_miffle.m4a" },
+  {image1: '<img src="img/12.png" width="40%"/>',  image2: '<img src="img/16.png" width="40%"/>', audio: "audio/norm_zibo.m4a" }
 ];
 
 var duck_audio = {
   type: 'audio-keyboard-response',
-  stimulus: 'audio/norm_touch_duck.wav',
+  stimulus: 'audio/norm_touch_duck.m4a',
   choices: jsPsych.NO_KEYS,
   trial_duration: 2000
 }
@@ -96,7 +96,7 @@ var order1_1_sc_label_first = function() {
 
   var feedback = {
     type: 'audio-keyboard-response',
-    stimulus: 'audio/goodjob.wav',
+    stimulus: 'audio/goodjob.m4a',
     prompt: "<img src='img/greatjob.png'/>",
     choices: jsPsych.NO_KEYS,
     trial_duration: 2000,
@@ -428,7 +428,7 @@ var order1_1_nsc_label_first = function() {
 
   var feedback = {
     type: 'audio-keyboard-response',
-    stimulus: 'audio/goodjob.wav',
+    stimulus: 'audio/goodjob.m4a',
     prompt: "<img src='img/greatjob.png'/>",
     choices: jsPsych.NO_KEYS,
     trial_duration: 2000,
@@ -751,7 +751,7 @@ var order1_1_sc_label_last = function() {
 
   var feedback = {
     type: 'audio-keyboard-response',
-    stimulus: 'audio/goodjob.wav',
+    stimulus: 'audio/goodjob.m4a',
     prompt: "<img src='img/greatjob.png'/>",
     choices: jsPsych.NO_KEYS,
     trial_duration: 2000,
@@ -1076,7 +1076,7 @@ var order1_1_nsc_label_last = function() {
 
   var feedback = {
     type: 'audio-keyboard-response',
-    stimulus: 'audio/goodjob.wav',
+    stimulus: 'audio/goodjob.m4a',
     prompt: "<img src='img/greatjob.png'/>",
     choices: jsPsych.NO_KEYS,
     trial_duration: 2000,
