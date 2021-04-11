@@ -151,7 +151,7 @@ var order1_1_sc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -225,7 +225,7 @@ var order1_1_sc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -301,7 +301,7 @@ var order1_1_sc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -375,7 +375,7 @@ var order1_1_sc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var preload_audio = {
 			type: "call-function",
@@ -388,7 +388,7 @@ var order1_1_sc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -484,7 +484,7 @@ var order1_1_nsc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -559,7 +559,7 @@ var order1_1_nsc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -636,7 +636,7 @@ var order1_1_nsc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -710,7 +710,7 @@ var order1_1_nsc_label_first = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -807,7 +807,7 @@ var order1_1_sc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -882,7 +882,7 @@ var order1_1_sc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -959,7 +959,7 @@ var order1_1_sc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -1034,7 +1034,7 @@ var order1_1_sc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -1132,7 +1132,7 @@ var order1_1_nsc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
@@ -1207,7 +1207,7 @@ var order1_1_nsc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -1284,7 +1284,7 @@ var order1_1_nsc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial2_1 = {
         type: 'audio-keyboard-response',
@@ -1356,7 +1356,7 @@ var order1_1_nsc_label_last = function() {
 			}
 		};
 
-		  timeline.push(preload_audio);
+		  //timeline.push(preload_audio);
 
       var test_trial1_1 = {
         type: 'audio-keyboard-response',
