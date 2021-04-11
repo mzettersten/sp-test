@@ -132,7 +132,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial)
+    timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -206,7 +206,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial2)
+    timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
