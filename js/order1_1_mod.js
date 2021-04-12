@@ -121,6 +121,7 @@ var order1_1_sc_label_first = function() {
     var training_trial = {
       type: 'video-audio-keyboard-response-mod',
       sources: training_video,
+		stimulus: training_audio,
       width: '40%',
       prompt1: "<img width = '30%' src='"+training_img[0]+"'/>",
       prompt2: "<img width = '30%' src='"+training_img[1]+"'/>",
@@ -133,7 +134,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial)
+    timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -209,7 +210,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial2)
+    timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
