@@ -122,7 +122,7 @@ jsPsych.plugins["video-audio-keyboard-response-mod"] = (function() {
       video_html += trial.prompt1;
     }
 
-    video_html += '<video playsinline preload="none" id="jspsych-video-audio-keyboard-response-mod-stimulus" poster ="img/duck.jpg" onclick="this.play();"';
+    video_html += '<video playsinline preload="none" id="jspsych-video-audio-keyboard-response-mod-stimulus" poster ="img/duck.jpg" onclick="play_vidaudio();"';
 
     if(trial.width) {
       video_html += ' width="'+trial.width+'"';
