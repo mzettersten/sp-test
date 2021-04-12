@@ -206,7 +206,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -252,11 +252,11 @@ var order1_1_sc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
 
     }
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   } else {
 
@@ -265,7 +265,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training2[y].video];
     var training_img = [sc_label_first_training2[y].image1, sc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -282,7 +282,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -328,18 +328,18 @@ var order1_1_sc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [sc_label_first_training1[y].video];
     var training_img = [sc_label_first_training1[y].image1, sc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -356,7 +356,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -415,11 +415,11 @@ var order1_1_sc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
   }
 };
 
@@ -448,7 +448,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training1[y].video];
     var training_img = [nsc_label_first_training1[y].image1, nsc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -465,7 +465,7 @@ var order1_1_nsc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -511,19 +511,19 @@ var order1_1_nsc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [nsc_label_first_training2[y].video];
     var training_img = [nsc_label_first_training2[y].image1, nsc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -540,7 +540,7 @@ var order1_1_nsc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -586,12 +586,12 @@ var order1_1_nsc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   } else {
 
@@ -600,7 +600,7 @@ var order1_1_nsc_label_first = function() {
     var training_video = [nsc_label_first_training2[y].video];
     var training_img = [nsc_label_first_training2[y].image1, nsc_label_first_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -617,7 +617,7 @@ var order1_1_nsc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -663,18 +663,18 @@ var order1_1_nsc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [nsc_label_first_training1[y].video];
     var training_img = [nsc_label_first_training1[y].image1, nsc_label_first_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -691,7 +691,7 @@ var order1_1_nsc_label_first = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -737,12 +737,12 @@ var order1_1_nsc_label_first = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
   }
 };
 
@@ -771,7 +771,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training1[y].video];
     var training_img = [sc_label_last_training1[y].image1, sc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -788,7 +788,7 @@ var order1_1_sc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -834,19 +834,19 @@ var order1_1_sc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [sc_label_last_training2[y].video];
     var training_img = [sc_label_last_training2[y].image1, sc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -863,7 +863,7 @@ var order1_1_sc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -909,12 +909,12 @@ var order1_1_sc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   } else {
 
@@ -923,7 +923,7 @@ var order1_1_sc_label_last = function() {
     var training_video = [sc_label_last_training2[y].video];
     var training_img = [sc_label_last_training2[y].image1, sc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -940,7 +940,7 @@ var order1_1_sc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -986,19 +986,19 @@ var order1_1_sc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [sc_label_last_training1[y].video];
     var training_img = [sc_label_last_training1[y].image1, sc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -1015,7 +1015,7 @@ var order1_1_sc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -1061,12 +1061,12 @@ var order1_1_sc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   }
 };
@@ -1096,7 +1096,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training1[y].video];
     var training_img = [nsc_label_last_training1[y].image1, nsc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -1113,7 +1113,7 @@ var order1_1_nsc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -1159,19 +1159,19 @@ var order1_1_nsc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
     var y = getRandomInt(2);
 
     var training_video = [nsc_label_last_training2[y].video];
     var training_img = [nsc_label_last_training2[y].image1, nsc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -1188,7 +1188,7 @@ var order1_1_nsc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -1234,12 +1234,12 @@ var order1_1_nsc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   } else {
 
@@ -1248,7 +1248,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training2[y].video];
     var training_img = [nsc_label_last_training2[y].image1, nsc_label_last_training2[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -1265,7 +1265,7 @@ var order1_1_nsc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial2)
+    //timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -1311,8 +1311,8 @@ var order1_1_nsc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial2_1);
-        timeline.push(test_trial2_2);
+        //timeline.push(test_trial2_1);
+        //timeline.push(test_trial2_2);
     }
 
     var y = getRandomInt(2);
@@ -1320,7 +1320,7 @@ var order1_1_nsc_label_last = function() {
     var training_video = [nsc_label_last_training1[y].video];
     var training_img = [nsc_label_last_training1[y].image1, nsc_label_last_training1[y].image2];
 
-    timeline.push(duck_audio);
+    //timeline.push(duck_audio);
 
     var training_trial = {
       type: 'video-keyboard-response-mod',
@@ -1337,7 +1337,7 @@ var order1_1_nsc_label_last = function() {
       }
     }
 
-    timeline.push(training_trial)
+    //timeline.push(training_trial)
 
     for (i = 0; i < shuffledArray.length; i++) {
 
@@ -1383,12 +1383,12 @@ var order1_1_nsc_label_last = function() {
             }
         };
 
-        timeline.push(test_trial1_1);
-        timeline.push(test_trial1_2);
+        //timeline.push(test_trial1_1);
+        //timeline.push(test_trial1_2);
 
     }
 
-    timeline.push(feedback);
+    //timeline.push(feedback);
 
   }
 };
