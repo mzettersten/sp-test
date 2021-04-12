@@ -1,7 +1,7 @@
 /// Starting within-subject conditions ///
 //////////////////////////////////////////
 // for sc-label-first condition
-var sc_labelvideo/_first_training1 = [
+var sc_label_first_training1 = [
   {image1: 'img/1.png', image2: 'img/5.png', video: 'video/blicket-toma-1.mp4', audio: 'vidaudio/blicket-toma-1.mp4.mp3'},
   {image1: 'img/1.png', image2: 'img/5.png', video: 'video/blicket-toma-4.mp4', audio: 'vidaudio/blicket-toma-4.mp4.mp3'}
 ];
