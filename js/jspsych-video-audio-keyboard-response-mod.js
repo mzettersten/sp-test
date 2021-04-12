@@ -113,7 +113,19 @@ jsPsych.plugins["video-audio-keyboard-response-mod"] = (function() {
   }
 
   plugin.trial = function(display_element, trial) {
-
+	  
+  	function play_vidaudio() {
+  		//start video
+  		display_element.querySelector('#jspsych-video-audio-keyboard-response-mod-stimulus').play();
+  	    // start audio
+  	    if(context !== null){
+  	      startTime = context.currentTime;
+  	      source.start(startTime);
+  	    } else {
+  	      audio.play();
+  	    }
+  	}
+	
     // setup stimulus
     var video_html = '<div>'
 
@@ -183,17 +195,7 @@ jsPsych.plugins["video-audio-keyboard-response-mod"] = (function() {
 	   
 		//}
 		
-		function play_vidaudio() {
-			//start video
-			display_element.querySelector('#jspsych-video-audio-keyboard-response-mod-stimulus').play();
-		    // start audio
-		    if(context !== null){
-		      startTime = context.currentTime;
-		      source.start(startTime);
-		    } else {
-		      audio.play();
-		    }
-		}
+
     
 
     // var video = document.getElementById('video');
