@@ -2,13 +2,13 @@
 //////////////////////////////////////////
 // for sc-label-first condition
 var sc_label_first_training1 = [
-  {image1: 'img/1.png', image2: 'img/5.png', video: 'video/blicket-toma-1.mp4'},
-  {image1: 'img/1.png', image2: 'img/5.png', video: 'video/blicket-toma-4.mp4'}
+  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-1.mp4'},
+  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-4.mp4'}
 ];
 
 var sc_label_first_training2 = [
-  {image1: 'img/9.png', image2: 'img/15.png', video: 'video/gazzer-numo-1.mp4'},
-  {image1: 'img/9.png', image2: 'img/15.png', video: 'video/gazzer-numo-4.mp4'}
+  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-1.mp4'},
+  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-4.mp4'}
 ];
 
 var sc_label_first_test_images1 = [
@@ -23,13 +23,13 @@ var sc_label_first_test_images2 = [
 
 //nsc-label-sc_label
 var nsc_label_first_training1 = [
-  {image1: 'img/2.png', image2: 'img/6.png', video: 'video/fopin-nissle-1.mp4'},
-  {image1: 'img/2.png', image2: 'img/6.png', video: 'video/fopin-nissle-4.mp4'}
+  {image1: 'img/2.png', image2: 'img/6.png', video: 'old_video/fopin-nissle-1.mp4'},
+  {image1: 'img/2.png', image2: 'img/6.png', video: 'old_video/fopin-nissle-4.mp4'}
 ];
 
 var nsc_label_first_training2 = [
-  {image1: 'img/13.png', image2: 'img/14.png', video: 'video/chamu-dakup-1.mp4'},
-  {image1: 'img/13.png', image2: 'img/14.png', video: 'video/chamu-dakup-4.mp4'}
+  {image1: 'img/13.png', image2: 'img/14.png', video: 'old_video/chamu-dakup-1.mp4'},
+  {image1: 'img/13.png', image2: 'img/14.png', video: 'old_video/chamu-dakup-4.mp4'}
 ];
 
 var nsc_label_first_test_images1 = [
@@ -44,13 +44,13 @@ var nsc_label_first_test_images2 = [
 
 //sc_label_last
 var sc_label_last_training1 = [
-  {image1: 'img/3.png', image2: 'img/7.png', video: 'video/tentle-paegu-1.mp4'},
-  {image1: 'img/3.png', image2: 'img/7.png', video: 'video/tentle-paegu-4.mp4'}
+  {image1: 'img/3.png', image2: 'img/7.png', video: 'old_video/tentle-paegu-1.mp4'},
+  {image1: 'img/3.png', image2: 'img/7.png', video: 'old_video/tentle-paegu-4.mp4'}
 ];
 
 var sc_label_last_training2 = [
-  {image1: 'img/11.png', image2: 'img/10.png', video: 'video/klefu-jimo-1.mp4'},
-  {image1: 'img/11.png', image2: 'img/10.png', video: 'video/klefu-jimo-4.mp4'}
+  {image1: 'img/11.png', image2: 'img/10.png', video: 'old_video/klefu-jimo-1.mp4'},
+  {image1: 'img/11.png', image2: 'img/10.png', video: 'old_video/klefu-jimo-4.mp4'}
 ];
 
 var sc_label_last_test_images1 = [
@@ -65,13 +65,13 @@ var sc_label_last_test_images2 = [
 
 //nsc_label_last
 var nsc_label_last_training1 = [
-  {image1: 'img/4.png', image2: 'img/8.png', video: 'video/reko-vugim-1.mp4'},
-  {image1: 'img/4.png', image2: 'img/8.png', video: 'video/reko-vugim-4.mp4'}
+  {image1: 'img/4.png', image2: 'img/8.png', video: 'old_video/reko-vugim-1.mp4'},
+  {image1: 'img/4.png', image2: 'img/8.png', video: 'old_video/reko-vugim-4.mp4'}
 ];
 
 var nsc_label_last_training2 = [
-  {image1: 'img/12.png', image2: 'img/16.png', video: 'video/miffle-zibo-1.mp4'},
-  {image1: 'img/12.png', image2: 'img/16.png', video: 'video/miffle-zibo-4.mp4'}
+  {image1: 'img/12.png', image2: 'img/16.png', video: 'old_video/miffle-zibo-1.mp4'},
+  {image1: 'img/12.png', image2: 'img/16.png', video: 'old_video/miffle-zibo-4.mp4'}
 ];
 
 var nsc_label_last_test_images1 = [
