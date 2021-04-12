@@ -206,7 +206,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial2)
+    timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -252,8 +252,8 @@ var order1_1_sc_label_first = function() {
             }
         };
 
-        //timeline.push(test_trial2_1);
-        //timeline.push(test_trial2_2);
+        timeline.push(test_trial2_1);
+        timeline.push(test_trial2_2);
 
     }
     //timeline.push(feedback);
@@ -265,7 +265,7 @@ var order1_1_sc_label_first = function() {
     var training_video = [sc_label_first_training2[y].video];
     var training_img = [sc_label_first_training2[y].image1, sc_label_first_training2[y].image2];
 
-    //timeline.push(duck_audio);
+    timeline.push(duck_audio);
 
     var training_trial2 = {
       type: 'video-keyboard-response-mod',
@@ -282,7 +282,7 @@ var order1_1_sc_label_first = function() {
       }
     }
 
-    //timeline.push(training_trial2)
+    timeline.push(training_trial2)
 
     for (i = 0; i < shuffledArray2.length; i++) {
 
@@ -328,8 +328,8 @@ var order1_1_sc_label_first = function() {
             }
         };
 
-        //timeline.push(test_trial2_1);
-        //timeline.push(test_trial2_2);
+        timeline.push(test_trial2_1);
+        timeline.push(test_trial2_2);
     }
 
     //timeline.push(feedback);
