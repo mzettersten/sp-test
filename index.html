@@ -18,9 +18,10 @@
 	<script type="text/javascript" src="lib/vendors/jquery-2.2.0.min.js"></script>
 	<!-- <script type="text/javascript" src="lib/jspsych-pavlovia-3.0.6.js"></script> -->
 
-	<script type="text/javascript" src="js/order1_1.js"></script>
+	<script type="text/javascript" src="js/order1_1_mod.js"></script>
 	<script type="text/javascript" src="js/jspsych-html-button-response.js"></script>
 	<script type="text/javascript" src="js/jspsych-video-keyboard-response-mod.js"></script>
+	<script type="text/javascript" src="js/jspsych-video-audio-keyboard-response-mod.js"></script>
 </head>
 
 <body>
@@ -49,15 +50,15 @@
     });
 
 		// for sc-label-first condition
-		var sc_label_first_training1 = [
-		  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-1.mp4'},
-		  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-4.mp4'}
-		];
+	var sc_label_first_training1 = [
+	  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-1.mp4', audio: 'vidaudio/blicket-toma-1.mp4.mp3'},
+	  {image1: 'img/1.png', image2: 'img/5.png', video: 'old_video/blicket-toma-4.mp4', audio: 'vidaudio/blicket-toma-4.mp4.mp3'}
+	];
 
-		var sc_label_first_training2 = [
-		  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-1.mp4'},
-		  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-4.mp4'}
-		];
+	var sc_label_first_training2 = [
+	  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-1.mp4', audio: 'vidaudio/gazzer-numo-1.mp4.mp3'},
+	  {image1: 'img/9.png', image2: 'img/15.png', video: 'old_video/gazzer-numo-4.mp4', audio: 'vidaudio/gazzer-numo-4.mp4.mp3'}
+	];
 
 		var sc_label_first_test_images1 = [
 		  {image1: '<img src="img/1.png" width="40%" />', image2: '<img src="img/5.png" width="40%" />', audio: "audio/norm_blicket.m4a"},
@@ -257,19 +258,19 @@
 		// 	'audio/norm_paegu.m4a', 'audio/norm_reko.m4a', 'audio/norm_tentle.m4a',
 		// 	'audio/norm_toma.m4a', 'audio/norm_vugim.m4a', 'audio/norm_zibo.m4a'];
 
-		var video = ['old_video/blicket-toma-2.mp4', 'old_video/blicket-toma-3.mp4',
-		'old_video/chamu-dakup-2.mp4', 'old_video/chamu-dakup-3.mp4', 'old_video/fopin-nissle-2.mp4',
-    'old_video/fopin-nissle-3.mp4', 'old_video/gazzer-numo-2.mp4', 'old_video/gazzer-numo-3.mp4',
-		'old_video/klefu-jimo-2.mp4', 'old_video/klefu-jimo-3.mp4', 'old_video/miffle-zibo-2.mp4',
-    'old_video/miffle-zibo-3.mp4', 'old_video/reko-vugim-2.mp4', 'old_video/reko-vugim-3.mp4',
-		'old_video/tentle-paegu-2.mp4', 'old_video/tentle-paegu-3.mp4'];
+		// var video = ['old_video/blicket-toma-2.mp4', 'old_video/blicket-toma-3.mp4',
+		// 'old_video/chamu-dakup-2.mp4', 'old_video/chamu-dakup-3.mp4', 'old_video/fopin-nissle-2.mp4',
+		//     'old_video/fopin-nissle-3.mp4', 'old_video/gazzer-numo-2.mp4', 'old_video/gazzer-numo-3.mp4',
+		// 'old_video/klefu-jimo-2.mp4', 'old_video/klefu-jimo-3.mp4', 'old_video/miffle-zibo-2.mp4',
+		//     'old_video/miffle-zibo-3.mp4', 'old_video/reko-vugim-2.mp4', 'old_video/reko-vugim-3.mp4',
+		// 'old_video/tentle-paegu-2.mp4', 'old_video/tentle-paegu-3.mp4'];
 
 		/* start the experiment */
 		jsPsych.init({
 			timeline: timeline,
-			preload_images: images ,
+			preload_images: images //,
 		  //preload_audio: audio
-      preload_video: video
+      // preload_video: video
 		});
 
 		
