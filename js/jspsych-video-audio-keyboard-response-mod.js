@@ -179,7 +179,7 @@ jsPsych.plugins["video-audio-keyboard-response-mod"] = (function() {
       display_element.querySelector('#jspsych-video-audio-keyboard-response-mod-stimulus').src = video_preload_blob;
     }
 	
-	display_element.querySelector('#jspsych-video-audio-keyboard-response-mod-stimulus').onplay = function(){
+	//display_element.querySelector('#jspsych-video-audio-keyboard-response-mod-stimulus').onplay = function(){
 	    // start audio
 	    if(context !== null){
 	      startTime = context.currentTime;
@@ -187,7 +187,7 @@ jsPsych.plugins["video-audio-keyboard-response-mod"] = (function() {
 	    } else {
 	      audio.play();
 	    }
-	}
+		//}
     
 
     // var video = document.getElementById('video');
